@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="WebApplication4.Site2" %>
+
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>online rent</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="background">
+		<div id="page">
+			<div id="header">
+				
+					<CENTER><h1 style="color:cornsilk">ONLINE HOUSE RENTAL SITE</h1></CENTER>
+				
+				<div id="navigation">
+					<ul>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<li>
+							<a href="home.aspx">Home</a>
+						</li>
+						<li>
+							<a href="Login.aspx">User Login</a>
+						</li>
+						<li>
+							<a href="admin.aspx">Seller Login</a>
+						</li>
+						<li>
+							
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			<div id="contents">
+				<div id="adbox">
+					<img src="images/house.jpg" alt="Img"><div></div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            </div>
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				
+				<p>
+					© 2021 by Online Rental System.All Rights Reserved
+				</p>
+			</div>
+			
+		</div>
+	</div>
+</body>
